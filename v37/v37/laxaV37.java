@@ -8,6 +8,10 @@ public class laxaV37 {
 		
 		Scanner input = new Scanner(System.in);
 		
+		System.out.println("Vad heter du: ");
+		
+		String namn = input.nextLine();
+		
 		
 		
 	}
