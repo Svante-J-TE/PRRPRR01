@@ -12,7 +12,7 @@ public class lektion1 {
 		
 		
 		int heltal1 = 5;  // Skapar en låda som heter heltal1 och fyller den med ett heltal
-		int svar; // Deklarera 
+		int svar; // Deklarerar variabeln svar 
 		
 		svar = heltal1*heltal1; 
 		
