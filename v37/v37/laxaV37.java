@@ -16,6 +16,22 @@ public class laxaV37 {
 		
 		String age = input.nextLine();
 		
+		System.out.println("Vad är din adress? ");
+		
+		String adress = input.nextLine();
+		
+		System.out.println("Vad är ditt postnummer? ");
+		
+		String postcode = input.nextLine();
+		
+		System.out.println("Vilken stad bor du i? ");
+		
+		String city = input.nextLine();
+		
+		System.out.println("Vad är ditt telefonnummer? ");
+		
+		String phonenumber = input.nextLine();
+		
 	}
 
 }
