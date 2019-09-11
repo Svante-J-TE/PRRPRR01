@@ -32,6 +32,9 @@ public class laxaV37 {
 		
 		String phonenumber = input.nextLine();
 		
+		System.out.println("\n" + "Infromation:" + "\n" + "Namn:" + "\t\t" + name + "\n" + "Ålder:" + "\t\t" + age + "\n" + "Adress:" + "\t\t" + adress + "\n" + 
+		"Postnummer:" + "\t" + postcode + "\n" + "Stad:" + "\t\t" + city + "\n" + "Telefon:" + "\t" + phonenumber);
+		
 	}
 
 }
