@@ -38,8 +38,7 @@ public class lektion3 {
 	}
 }
 
-/* &&  betyder  "och"
- * ||  betyder  "eller"
- * =   betyder  "likamed"
- * !=  betyder  "ej likamed" 
+/*
+ * && betyder "och" || betyder "eller" = betyder "likamed" != betyder
+ * "ej likamed"
  */
