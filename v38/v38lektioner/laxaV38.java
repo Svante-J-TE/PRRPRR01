@@ -85,9 +85,9 @@ public class laxaV38 {
 		}
 		
 		int sum = number1 + number2 + number3 + number4 + number5;
-		int avrage = sum / 5;
+		int average = sum / 5; // Delar summan med 5 vilket ger medelvärdet på våra tal 
 		
-		 System.out.println("Medelvärdet av dina tal är: " + avrage);
+		 System.out.println("Medelvärdet av dina tal är: " + average); 
 		
 		}
 	}
