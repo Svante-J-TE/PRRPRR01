@@ -11,6 +11,8 @@ public class laxaV38 {
 		int number3 = 0;
 		int number4 = 0;
 		int number5 = 0;
+		
+		
 
 		Scanner input = new Scanner(System.in); // Gör det möjligt att ge variablerna ett värde via konsolen
 
@@ -25,6 +27,8 @@ public class laxaV38 {
 		number4 = input.nextInt();
 
 		number5 = input.nextInt(); // Variablerna har nu fått varsit värde
+		
+		
 		
 		if(number1 > number2 && number1 > number3 && number1 > number4 && number1 > number5){
 			
@@ -80,9 +84,10 @@ public class laxaV38 {
 			System.out.println("Det lägsta talet är: " + number5);
 		}
 		
-		if()
+		int sum = number1 + number2 + number3 + number4 + number5;
+		int avrage = sum / 5;
 		
-		System.out.println("Medelvärdet är: " number1 + number2 + number3 + number4 + number5);
+		 System.out.println("Medelvärdet av dina tal är: " + avrage);
 		
 		}
 	}
