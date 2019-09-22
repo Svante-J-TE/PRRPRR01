@@ -84,8 +84,8 @@ public class laxaV38 {
 			System.out.println("Det lägsta talet är: " + number5);
 		}
 		
-		int sum = number1 + number2 + number3 + number4 + number5;
-		int average = sum / 5; // Delar summan med 5 vilket ger medelvärdet på våra tal 
+		double sum = number1 + number2 + number3 + number4 + number5;
+		double average = sum / 5; // Delar summan med 5 vilket ger medelvärdet på våra tal 
 		
 		 System.out.println("Medelvärdet av dina tal är: " + average); 
 		
