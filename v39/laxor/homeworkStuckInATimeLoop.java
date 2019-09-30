@@ -2,7 +2,7 @@ package laxor;
 
 import java.util.Scanner;
 
-public class homework3 {
+public class homeworkStuckInATimeLoop{
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
