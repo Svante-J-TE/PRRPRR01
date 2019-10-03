@@ -8,10 +8,20 @@ public class spavanacKattis {
 		
 		Scanner input = new Scanner(System.in);
 		
-		int h = input.nextInt();
-		int m = input.nextInt();
+		int Hours = input.nextInt();
+		int minutes = input.nextInt();
 		
-		System.out.println(h +" "+ m);
+		minutes -= 45;
+
+		if (minutes < 0)
+		    {
+		    Hours -= 1;
+		    minutes += 60;
+		    }
+		if (Hours < 0)
+		    Hours = 23;
+		
+		System.out.println(Hours +" "+ minutes);
 		
 		
 	}
