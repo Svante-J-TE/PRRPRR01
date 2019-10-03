@@ -17,8 +17,8 @@ public class takeTwoStones {
 			else if(N % 2 == 0) {
 				System.out.println("Bob");
 			}
-		
-
+			
+			input.close();
 	}
 
 }
