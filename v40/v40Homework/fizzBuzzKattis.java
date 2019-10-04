@@ -13,7 +13,7 @@ public class fizzBuzzKattis {
 		int antal = input.nextInt();
 		
 		
-		for(int i = 1; i <= antal; i++) { // Betämmer hur många gånger metoden ska köras genom att jämnföra i med variabeln antal
+		for(int i = 1; i <= antal; i++) { // Betämmer hur många gånger loopen ska köras genom att jämnföra i med variabeln antal
 			
 			if(i % delbart2 == 0 && i % delbart1 == 0) { // Testar om i är delbart med variabel 1 och 2. Om den är det skriv ut "FizzBuzz"
 				System.out.println("FizzBuzz");
