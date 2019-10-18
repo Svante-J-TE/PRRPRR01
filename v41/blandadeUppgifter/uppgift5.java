@@ -8,7 +8,7 @@ public class uppgift5 {
 		for(int i = 0; i <= 10000; i++) {
 			if(i % 7 == 0) {
 				sum += i;
-				System.out.println(i);
+				
 			}
 		}
 		System.out.println(sum);
