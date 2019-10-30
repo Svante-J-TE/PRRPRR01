@@ -38,7 +38,7 @@ public class homework6 {
 			System.out.println("Du får vuxenstraff om du gör något dumt");
 		}
 		else if(age <= 99) {
-			System.out.println("Du är penionär");
+			System.out.println("Du är pensionär");
 		}
 		else {
 			System.out.println("RIP!?");
