@@ -16,11 +16,18 @@ public class homework7 {
 		System.out.println("Hur många steg ska trappan ha?");
 		int x = input.nextInt();
 		input.close();
+		
+		String out ="";
+		
 		for (int i = 0; i <= x; i++) {
-			for (int u = 1; u <= i; u++) {
-				System.out.print("x");
+			for (int o = 1; o <= x-i; o++) {
+				out += " ";
 			}
-			System.out.print("\n");
+			for (int u = 1; u <= i; u++) {
+				out += "x";
+			}
+			System.out.println(out);
+			out = "";
 		}
 	}
 }
