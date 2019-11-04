@@ -34,7 +34,7 @@ public class homework6 {
 		else if(age <= 20) {
 			System.out.println("Du får köra bil");
 		}
-		else if(age <= 64) {
+		else if(age <= 64){
 			System.out.println("Du får vuxenstraff om du gör något dumt");
 		}
 		else if(age <= 99) {
