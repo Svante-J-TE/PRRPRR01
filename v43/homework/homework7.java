@@ -17,17 +17,17 @@ public class homework7 {
 		int x = input.nextInt();
 		input.close();
 		
-		String out ="";
+		String printOut ="";
 		
 		for (int i = 0; i <= x; i++) {
-			for (int o = 1; o <= x-i; o++) {
-				out += " ";
+			for (int j = 1; j <= x-i; j++) {
+				printOut += " ";
 			}
-			for (int u = 1; u <= i; u++) {
-				out += "x";
+			for (int k = 1; k <= i; k++) {
+				printOut += "x";
 			}
-			System.out.println(out);
-			out = "";
+			System.out.println(printOut);
+			printOut = "";
 		}
 	}
 }
