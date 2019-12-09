@@ -175,7 +175,6 @@ public class arrayHomework {
 		
 		Arrays.sort(numbers);
 
-
 		for (int i = 0; i < numbers.length; i++) {
 
 			for (int j = 0; j < numbers.length; j++) {
@@ -206,7 +205,7 @@ public class arrayHomework {
 		String result = "";
 		
 		for (int i = 0; i < names.length; i++) {
-			if(names[i].contains("L")) {
+			if(names[i].charAt(0) == 'L') {
 				L++;
 			}
 		}
