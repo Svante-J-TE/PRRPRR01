@@ -98,7 +98,7 @@ public class homework {
 		System.out.println("(2) - Shooting Guard");
 		System.out.println("(3) - Small Forward");
 		System.out.println("(4) - Power Forward");
-		System.out.println("(5) - Canter");
+		System.out.println("(5) - Center");
 		System.out.println("(6) - Go back to main menu");
 
 		String sPG = "";
