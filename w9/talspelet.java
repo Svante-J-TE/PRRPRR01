@@ -364,7 +364,7 @@ public class talspelet {
 
 				case 1:
 					_guessAmount = -2;	//-2 is used because it is a integer which never will be achived by any of the other difficulties
-										// that way i can in the method guessGame() single out the integer -2 and use it so if _guessAmount is -2 the amount of guesses will never run out
+					// that way i can in the method guessGame() single out the integer -2 and use it so if _guessAmount is -2 the amount of guesses will never run out
 					difficultyS = "Unlimited";
 					System.out.println("You have choosen: " + difficultyS);
 					failsafe = true;
