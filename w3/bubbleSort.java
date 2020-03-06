@@ -1,15 +1,29 @@
 import java.util.Arrays;
+import java.util.Scanner;
+
+
 
 public class bubbleSort {
 
 	public static void main(String[] args) {
 
-		int[] numbers = new int[37];
+		Scanner input = new Scanner(System.in);
+		System.out.println("Choose amount of numbers: ");
+		int length = input.nextInt(); 
+		int[] numbers = new int[length];
+		
+		System.out.println("Choose your interval, x < your numbers > y");
+		int intervalLeast = input.nextInt();
+		int intervalMost = input.nextInt();
+		
+		System.out.println("How many interations before finnish: ");
+		int iterations = input.nextInt();
+		
 		boolean fin;
 		int temp;
 
-		for (int i = 0; i < numbers.length; i++) {
-			numbers[i] = (int) (Math.random()*1000);	// Randomizes 37 integers between 0-1000
+		for (int i = intervalLeast; i < numbers.length; i++) {
+			numbers[i] = (int) (Math.random()*intervalMost+1);	// Randomizes 37 integers between 0-1000
 		}
 		System.out.println(Arrays.toString(numbers));
 
